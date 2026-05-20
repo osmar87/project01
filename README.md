@@ -1,18 +1,30 @@
-## Getting Started
+# Sistema de Processo Seletivo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto simula um processo seletivo simples utilizando Java.
 
-## Folder Structure
+O sistema realiza:
 
-The workspace contains two folders by default, where:
+- Cadastro de candidatos
+- Simulação de pretensão salarial
+- Seleção de candidatos
+- Tentativa de contato com os aprovados
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Tecnologias Utilizadas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java
+- ArrayList
+- Random
+- ThreadLocalRandom
+- Estruturas de repetição
+- Métodos estáticos
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Estrutura do Projeto
+
+O projeto possui uma única classe principal:
+
+```java
+public class ProcessoSeletivo
